@@ -319,4 +319,18 @@ body {
 }
 .tempor__button {
 	min-width: 190px;
+	transition: all 0.2s ease;
+}
+
+.tempor__button:hover {
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.tempor__button:active {
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+.tempor__button span {
+	transition: all 0.1s linear;
+}
+.tempor__button:active span {
+	transform: scale(0.99);
 }
